@@ -2,6 +2,9 @@
 
 **Status: evidence gathering incomplete; do not freeze or export as final yet.**
 
+## Lab 10 and 11 supporting evidence
+The [Lab 10 and 11 validation defense](lab10-11-validation-defense.md) documents the five-year accounting and cash checks, gross-margin and SG&A sensitivity design, model-specific FCFE versus FCFF distinction, verified logged WACC/g effects, base restoration, failure tests, and remaining source/ownership gaps. Its explanatory causal expectations are AI-assisted **not an authentic AI-off precommit**.
+
 ## Automated checks
 - [GitHub Actions clean-run history](https://github.com/jmcdonald207/Walmart-repository/actions): Python compilation and execution of the combined runner and integrated model. Preserve the specific final commit SHA, job output and timestamp for the frozen submission.
 - Lab 5 training FCFF DCF known answer: $27.4974/share at 10% WACC; about $23.41 at 11%.

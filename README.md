@@ -23,3 +23,7 @@ python models/walmart_project1.py
 Final audited valuations, verified peer EV/EBITDA, normalized filing inputs, final exported PDFs, authentic unchanged Edition A and receipt, AI-off locked changed-input test, real partner challenges, visible frozen output, three video recordings and corrected transcripts.
 
 Supporting research and individual lab work remain in the separate [original Walmart repository](https://github.com/jmcdonald207/Walmart-repository). Nothing in the original repository has been deleted.
+
+## Actual visible executed model results
+- [Dated GitHub Actions output with inputs, scenarios, bridge and limitations](outputs/visible-output.md) — readable without running the code. Model outputs are provisional valuation proxies, **not a supported committee fair-value range**.
+- [FY2026 primary-filing reconciliation, including NCI and leases](project1/historical-evidence-and-normalization.md)

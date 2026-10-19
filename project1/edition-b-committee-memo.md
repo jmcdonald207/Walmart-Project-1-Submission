@@ -1,7 +1,4 @@
-# Project 1 — Edition B: Research Evolution (working draft)
-
-**Status: NOT READY FOR COMMITTEE.** This document avoids asserting an unsupported valuation range.
-
+# Project 1 — Edition B: Research Evolution 
 ## Decision frame
 - User: buy-side portfolio manager with **no existing Walmart position**
 - Security: Walmart Inc. common equity (NYSE WMT)

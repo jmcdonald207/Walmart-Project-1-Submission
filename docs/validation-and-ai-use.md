@@ -30,3 +30,6 @@ AI assisted in code creation, organization, scenario suggestions, checks and Mar
 - **Frozen deliverable:** export this completed document as `Validation-and-AI-Use.pdf` in Brightspace, with a content-equivalent working source in this path.
 
 Detailed supporting records: [project1/validation-and-ai-use.md](../project1/validation-and-ai-use.md) and [assumption-challenge register](../analysis/assumption-challenge-register.md).
+
+## Preserved actual executed output
+[Run 39178101348](https://github.com/jmcdonald207/Walmart-Project-1-Submission/actions/runs/39178101348) logged five-year forecast runs and expected-direction checks. [Visible executed-output transcription](../outputs/visible-output.md) includes the model's low/base/high values, 3x3 WACC/g sensitivity, terminal share and known unresolved financial-definition risks. This is an automated execution, **not** a human-authored locked changed-input prediction.

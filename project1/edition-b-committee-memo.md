@@ -1,4 +1,4 @@
-# Project 1 — Edition B / Committee memo (working draft)
+# Project 1 — Edition B: Research Evolution (working draft)
 
 **Status: NOT READY FOR COMMITTEE.** This document avoids asserting an unsupported valuation range.
 
@@ -37,14 +37,19 @@ The fund holds zero Walmart shares. **Do not initiate on an unverified value pro
 
 Monitor: quarterly comparable sales, operating margin, advertising/membership mix, capital expenditure, inventory days, interest-bearing debt, and equity-share changes. The committee should revisit the decision when evidence resolves the NCI/lease/debt bridge and changes the accepted intrinsic-value range.
 
-## Deliverable status
-- Research and model draft: present
-- Synthetic training check: Lab 5 DCF and Lab 7 Asbury P/E present; Lab 9 Asbury three-statement validation pending
-- Source and base-year normalization: pending
-- Locked AI-off changed-input record: **pending authentic student-generated record**
-- Actual partner challenges (credit to challengers): **pending**
-- Cold-run: see [GitHub Actions](https://github.com/jmcdonald207/Walmart-repository/actions), verify current SHA and logs
-- Final defensible value range: **withheld pending corroborated financial inputs and method reconciliation**
-- Three videos/transcripts: excluded from this automation at student request
+## Edition A-to-B research evolution
 
-No part of this memo claims a class interaction or supervised baseline that did not occur.
+The original authenticated Edition A submission is not available in this repository. The Edition A column below therefore identifies what the existing March 14, 2025 research draft establishes, **not a verified transcription of the frozen Edition A**. Confirm each entry against the unchanged Brightspace-submitted Edition A before freezing this brief.
+
+| Changed item | Edition A — provisional reference, verify against original | Edition B — documented development | Primary driver of change | Evidence or test that justified the change |
+|---|---|---|---|---|
+| Thesis / recommendation | Initial Walmart research recommends **WATCH–DEFER**; whether this exactly matches Edition A must be confirmed | **WATCH–DEFER** remains provisional, now conditional on enterprise-to-common-equity reconciliation and agreement across defensible valuation methods | Own analysis + AI-assisted modeling | [Original company research](../walmart-investment-analysis.md); [integrated valuation model](../models/walmart_project1.py). **No claim of validated fair value** |
+| Data / source choice | Original research used FY2025 Form 10-K and March 14, 2025 information set; verify what Edition A itself included | Newer FY2026 opening model inputs and September 9, 2026 reverse-DCF reference were added; as-of dates remain separate rather than merged | Own analysis + AI-assisted research | [Historical source ledger](historical-evidence-and-normalization.md); [reverse DCF](../analysis/reverse_dcf.md). FY2026 balance and price definitions still require independent source checks |
+| Assumption / model design | Original research included a simplified enterprise-to-equity framework; exact Edition A model scope is unverified | Added five-year Walmart three-statement forecasts, pro-forma-driven provisional FCFF DCF, low/base/high cases, sensitivity tests and peer P/E calculations | Course instruction + AI-assisted coding | [Pro forma](../models/walmart_proforma.py); [FCFF model](../models/walmart_project1.py); [peer calculator](../models/walmart_peer_pe.py); [sensitivity](../models/walmart_sensitivity.py). Automated execution demonstrates operation, **not source accuracy** |
+| Risk / limitation / uncertainty | Original research identified competitive pressure, margin risk, capex and uncertainty around an attractive entry price | Later models exposed material valuation sensitivity, mismatched historical versus forecast share bases, different lease/debt conventions, and unresolved NCI and EV/EBITDA comparisons | Own analysis + AI-assisted model review | [Assumption challenges](../analysis/assumption-challenge-register.md); [EV multiple definitions](peer-enterprise-multiples.md); [validation record](validation-and-ai-use.md). No actual partner challenge is attributed without a real record |
+
+## What changed from Edition A to Edition B, and why?
+
+The central investment decision has **not demonstrably changed**: the available research supports a provisional WATCH–DEFER position, not an immediate initiation. The analysis has changed in scope and precision of its questions. It progressed from an initial filing-based company assessment toward a five-year operating forecast, a provisional FCFF valuation, comparable-company calculations and sensitivity testing. These additions helped identify which assumptions and definition choices could materially change Walmart's estimated value rather than treating a single output as conclusive.
+
+The work also exposed limitations that matter for the decision: 2025 research and 2026 valuation inputs have different information dates; the common-share denominator and enterprise-to-equity claims need consistent sourcing; and a policy-consistent EV/EBITDA comparison and normalized base are not yet complete. Those uncertainties are why the current analysis does not justify a final numerical committee range. **Before submission, compare this table directly with the original Edition A and revise any provisional statement that does not match the frozen record.**
